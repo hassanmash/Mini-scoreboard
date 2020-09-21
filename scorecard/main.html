@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>Score Card</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <header class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Others</a>
+                <p class="fleftcls" onclick="adminlogin()" id="loginbtn">Login</p>
+        </header>
+        <br><br><br><br>
+        <section id="adminonly"><center>
+            <form action="#">
+                <input type="text" placeholder="Enter name here!" height="20px" width="60px" id="addname">
+                <input type="text" placeholder="Enter value here!" height="20px" width="60px" id="addvalue">
+                <input type="button" value="Submit" onclick="submitfunc()" id="addbutton">
+            </form></center>
+        </section>
+        <center>
+        <table id="t01">
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Hassan</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Arkaan</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Shayiz</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Vishnu</td>
+                <td>0</td>
+            </tr>
+        </table>
+        </center>
+        <script src="./java/main.js"></script>
+    </body>
+</html>
